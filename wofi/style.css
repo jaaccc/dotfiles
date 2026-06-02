@@ -1,0 +1,27 @@
+* {
+    background-color: #000000;
+    border: none;
+    font-size: 18px;
+}
+
+#entry {
+    background-color: transparent;
+    padding: 10px 10px;
+}
+
+#entry:selected {
+    background-color: transparent;
+}
+
+#inner-box {
+    background-color: transparent;
+}
+
+#input {
+    background-color: transparent;
+    caret-color: #ffffff;
+}
+
+#outer-box {
+    background-color: #0e0e0e;
+}
