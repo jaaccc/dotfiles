@@ -1,27 +1,30 @@
 * {
-    background-color: #000000;
     border: none;
+    border-radius: 0px;
+    color: #ffffff;
     font-size: 18px;
 }
 
 #entry {
-    background-color: transparent;
-    padding: 10px 10px;
+    padding: 6px;
 }
 
 #entry:selected {
     background-color: transparent;
-}
-
-#inner-box {
-    background-color: transparent;
+    border: 1px solid #ffffff
 }
 
 #input {
     background-color: transparent;
-    caret-color: #ffffff;
+    padding: 10px;
 }
 
-#outer-box {
-    background-color: #0e0e0e;
+#input:focus {
+    border: 1px solid #ffffff;
+    box-shadow: none;
+    outline: none;
+}
+
+window {
+    background-color: rgba(0, 0, 0, 0.75);
 }
