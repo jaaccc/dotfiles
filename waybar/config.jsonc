@@ -1,0 +1,53 @@
+{
+    "layer": "top",
+    "margin-left": 8,
+    "margin-right": 8,
+    "margin-top": 8,
+    "position": "top",
+
+    "modules-left": ["hyprland/workspaces", "custom/mpris"],
+    "modules-center": ["custom/clock"],
+    "modules-right": [
+        "pulseaudio",
+        "custom/divider",
+        "network",
+        "custom/divider",
+        "battery",
+        "custom/divider",
+        "custom/power",
+    ],
+
+    "battery": {
+        "format": "<span color='#666666'>bat</span> <span color='#ffffff'>{capacity}%</span>",
+    },
+
+    "custom/clock": {
+        "exec": "~/.config/waybar/scripts/clock.sh",
+        "interval": 1,
+    },
+
+    "custom/divider": {
+        "format": "|",
+    },
+
+    "custom/mpris": {
+        "exec": "~/.config/waybar/scripts/mpris.sh",
+        "interval": 1,
+    },
+
+    "custom/power": {
+        "exec": "~/.config/waybar/scripts/power.sh",
+        "interval": 1,
+        "on-click": "~/.config/waybar/scripts/power.sh click",
+    },
+
+    "network": {
+        "format-ethernet": "<span color='#666666'>net</span> <span color='#ffffff'>eth</span>",
+        "format-disconnected": "<span color='#666666'>net</span> <span color='#ffffff'>off</span>",
+        "format-wifi": "<span color='#666666'>net</span> <span color='#ffffff'>{signalStrength}%</span>",
+    },
+
+    "pulseaudio": {
+        "format": "<span color='#666666'>vol</span> <span color='#ffffff'>{volume}%</span>",
+    },
+}

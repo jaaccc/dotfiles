@@ -1,3 +1,4 @@
-height = 200
-show = drun
-width = 300
+height=200
+prompt=
+show=drun
+width=300

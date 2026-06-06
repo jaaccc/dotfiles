@@ -1,0 +1,41 @@
+* {
+    border: none;
+    border-radius: 0px;
+    font-family: JetBrains Mono;
+    font-size: 14px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+#custom-clock {
+    color: #ffffff;
+}
+
+#custom-mpris {
+    color: #ffffff;
+}
+
+tooltip {
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 1px solid #ffffff;
+}
+
+window {
+    background-color: rgba(0, 0, 0, 0.75);
+    border: 1px solid #ffffff;
+    margin: 6px;
+}
+
+#workspaces button {
+    background: transparent;
+    color: #666666;
+}
+
+#workspaces button.active {
+    color: #ffffff;
+}
+
+#workspaces button:hover {
+    background: transparent;
+    color: #ffffff;
+}
