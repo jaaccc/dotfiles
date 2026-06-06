@@ -1,0 +1,13 @@
+*
+!.gitignore
+!hypr/
+!hypr/**
+!kitty/
+!kitty/**
+!mako/
+!mako/**
+!.prettierrc
+!waybar/
+!waybar/**
+!wofi/
+!wofi/**
